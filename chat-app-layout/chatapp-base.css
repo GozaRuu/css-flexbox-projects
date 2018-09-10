@@ -24,8 +24,10 @@ body {
   padding: 5vw;
 }
 
-.app-content .app-avatar {
-  width: 5rem;
+.app-contacts .app-avatar {
+  width: 3rem;
+  height: 3rem;
+  margin: 1rem;
 }
 
 .app-sender {
