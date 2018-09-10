@@ -1,0 +1,30 @@
+.pf-container {
+  display: flex;
+}
+
+.pf-content {
+  padding: 3vh;
+}
+
+.pf-grid-item {
+  margin-bottom: 1rem;
+}
+
+.pf-grid-item:last-child {
+  margin-bottom: 0;
+}
+
+/* Small Screens */
+@media only screen and (max-width: 900px) {
+  .pf-container {
+    flex-direction: column;
+  }
+
+  .pf-sidebar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+}
