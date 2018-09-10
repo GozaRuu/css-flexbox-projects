@@ -1,0 +1,37 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 14px;
+  font-family: sans-serif;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+.app-avatar {
+  border-radius: 50%
+}
+
+.app-message {
+  padding: 5vw;
+}
+
+.app-content .app-avatar {
+  width: 5rem;
+}
+
+.app-sender {
+  font-weight: bold;
+}
+
+.app-contacts .app-message {
+  border-bottom: solid 1px silver;
+}
