@@ -16,17 +16,22 @@ body {
   padding: 0;
 }
 
+.app-message {
+  padding: 1vw;
+}
+
+.app-message-content {
+  padding: 0.5rem;
+}
+
 .app-avatar {
   border-radius: 50%
 }
 
-.app-message {
-  padding: 5vw;
-}
 
 .app-contacts .app-avatar {
-  width: 3rem;
-  height: 3rem;
+  width: 4rem;
+  height: 4rem;
   margin: 1rem;
 }
 

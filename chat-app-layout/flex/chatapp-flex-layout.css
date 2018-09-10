@@ -1,0 +1,7 @@
+.app-message {
+  display: flex;
+}
+
+.app-message-content {
+  flex: 1;
+}
