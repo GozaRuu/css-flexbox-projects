@@ -32,8 +32,13 @@
 
 /* large Screens */
 @media only screen and (min-width:901px) {
+  .pf-sidebar-container {
+    flex: 26vw;    
+  }
   .pf-sidebar {
-    flex: 26vw;
+    position: fixed;
+    height: 100vh;
+    width: 26vw;
   }
 
   .pf-content {
