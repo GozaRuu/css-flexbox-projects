@@ -10,9 +10,6 @@
   margin-bottom: 1rem;
 }
 
-.pf-grid-item:last-child {
-  margin-bottom: 0;
-}
 
 /* Small Screens */
 @media only screen and (max-width: 900px) {
@@ -26,5 +23,30 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+  }
+
+  .pf-grid-item:last-child {
+    margin-bottom: 0;
+  }
+}
+
+/* large Screens */
+@media only screen and (min-width:901px) {
+  .pf-sidebar {
+    flex: 35vw;
+  }
+
+  .pf-content {
+    flex: 65vw;
+  }
+
+  .pf-grid {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .pf-grid-item {
+    width: 47%;
+    margin-right: 1rem;
   }
 }
