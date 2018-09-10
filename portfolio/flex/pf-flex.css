@@ -33,11 +33,11 @@
 /* large Screens */
 @media only screen and (min-width:901px) {
   .pf-sidebar {
-    flex: 35vw;
+    flex: 26vw;
   }
 
   .pf-content {
-    flex: 65vw;
+    flex: 74vw;
   }
 
   .pf-grid {
@@ -46,7 +46,14 @@
   }
 
   .pf-grid-item {
-    width: 47%;
-    margin-right: 1rem;
+    width: calc(50% - 0.5rem);
+  }
+
+  .pf-grid-item:nth-child(odd) {
+    margin-right: 0.5rem;
+  }
+
+  .pf-grid-item:nth-child(even) {
+    margin-left: 0.5rem;
   }
 }
