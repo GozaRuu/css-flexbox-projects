@@ -15,6 +15,10 @@ body{
   background-color: silver;
 }
 
+.hgn-header {
+  text-align: center;
+}
+
 .hgn-story,
 .hgn-header,
 .hgn-footer {
