@@ -17,7 +17,7 @@ body {
 }
 
 .app-message {
-  padding: 1vw;
+  padding: 0.4vw;
 }
 
 .app-message-content {
@@ -28,11 +28,10 @@ body {
   border-radius: 50%
 }
 
-
 .app-contacts .app-avatar {
   width: 4rem;
   height: 4rem;
-  margin: 1rem;
+  margin: 0.5rem;
 }
 
 .app-sender {
@@ -41,4 +40,43 @@ body {
 
 .app-contacts .app-message {
   border-bottom: solid 1px silver;
+}
+
+
+@media only screen and (min-width: 901px) {
+  .app-chat-header {
+    font-weight: bold;
+    font-size: 22px;
+  }
+
+  .app-contacts {
+    border-right: solid 1px silver;
+  }
+
+  .app-chats, .app-contacts {
+    height: 100vh;
+    overflow: scroll;
+  }
+
+  .app-chat-header {
+    height: 3rem;
+    background-color: silver;
+  }
+
+  .app-chats .app-avatar {
+    width: 3rem;
+    height: 3rem;
+  }
+
+  .app-message {
+    padding: 0.7vw;
+  }
+
+  .app-message-content {
+    padding-top: 0;
+  }
+
+  .app-message-active {
+    background-color: silver;
+  }
 }
