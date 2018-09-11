@@ -1,6 +1,15 @@
 # About this repo
 This is a collection of mobile-fist css flexbox-based layouts that can solve a variety of classic css issues. I originally started this repo to learn more about the technology but the project are perfectly usable or at least you can find some ideas in them. The projects are populated by HTML dummy content for testing.
 
+# Usage
+I recommand the NPM module Http-serve for a quicker run between the projects:
+
+1- `npm insall --global http-serve`
+
+2- In the cloned repo folder: `http-serve -p 8001`
+
+3- In your browser visit: `localhost:8001`
+
 # Holy Grail News
 Classic Holy Grail layout solved in flexbox for both screen sizes.
 
