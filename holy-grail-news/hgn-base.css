@@ -1,0 +1,30 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: serif;
+  background-color: silver;
+}
+
+.hgn-story,
+.hgn-header,
+.hgn-footer {
+  background-color: white;
+}
+
+.hgn-story {
+  padding: 1rem;
+}
+
+.hgn-story img{
+  max-width: 100%;
+}
